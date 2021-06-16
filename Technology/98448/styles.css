@@ -1,0 +1,54 @@
+
+@font-face{
+    font-family: Vazir;
+    src:url("assets/fonts/Vazir.woff2") format("woff2");
+    font-style:normal
+}
+body {
+    font-family: Vazir;
+    background-image: linear-gradient(to right bottom,#4ceeb5,#2d2c72);
+}
+.login-new__forms {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 25px 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 13px 14px 15px rgb(0 0 0 / 25%);
+    margin: 30px auto;
+}
+
+.login-new__welcome .logo {
+    width: 130px;
+    height: auto;
+    margin-top: 5%;
+}
+
+img {
+    border-style: none;
+}
+
+h2 {
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    margin: 0 0 21px;
+    color: #11276a;
+}
+
+.login-new {
+    position: relative;
+    margin: 0 auto;
+    transition: padding 400ms,opacity 350ms ease-out;
+    color: white;
+    height: 100%;
+}
+.middle-xs {
+    align-items: center;
+}
+.center-xs {
+    justify-content: center;
+    text-align: center;
+}
+
